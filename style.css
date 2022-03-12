@@ -111,7 +111,7 @@ article p{
     line-height: 2em;
 }
 .joinn h2{
-    border: 5px solid grey;
+    border: 3.5px solid grey;
     border-radius: 36px;
     color: #f63232;
     padding: 6px 10px;
@@ -131,3 +131,48 @@ footer{
     color: white;
     padding: 10px;
 }
+/* pseudo classes */
+
+nav ul li a:hover
+{
+     text-decoration: underline;
+ }
+ .images li:hover
+ {
+     position: relative;
+     top: -8px;
+ }
+ form input:focus
+ { 
+     border: 2px dashed #4b4b4b;
+     outline: none;
+ }
+ form input:valid
+ {
+     border: 2px solid #7bd300;
+ }
+
+ /* nav li:first-child
+ {
+     border: 3px red solid;
+ } */
+
+ article p::first-line
+ {
+     font-weight: bold;
+     font-size: 1.2em;
+ }
+ section.joinn p::first-letter
+ {
+     font-weight: bold;
+     font-size: 1.2em;   
+ }
+ p::selection
+ {
+     background-color: red;
+     color: white;
+ }
+ p ::after
+ {
+     content: '....'
+ }
