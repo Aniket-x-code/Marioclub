@@ -1,2 +1,2 @@
 # Marioclub 
-A mario theme fan website
+A mario fan website with a few details about it.
